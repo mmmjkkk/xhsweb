@@ -160,7 +160,7 @@ function renderProductDetail(main, params) {
             ${user ? `
               <button class="btn btn-primary btn-block" id="buyBtn">购买账号请添加微信 ${APP_CONFIG.wechatId}</button>
             ` : `
-              <a href="#/login" class="btn btn-primary btn-block" style="text-decoration:none">请登录后购买</a>
+              <a href="#/login" class="btn btn-primary btn-block" style="text-decoration:none">请添加微信购买😘</a>
             `}
           </div>
         </div>

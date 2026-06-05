@@ -37,5 +37,13 @@
 
   <script src="js/store.js"></script>
   <script src="js/app.js"></script>
+  <script>
+    // 强制等待 Store 初始化完成后再调用 router
+    (async () => {
+      await Store.init();
+      updateUI();
+      router.init();
+    })();
+  </script>
 </body>
 </html>

@@ -1,7 +1,6 @@
 /**
  * app.js - 应用主逻辑：页面渲染、交互优化版
  */
-Store.init();
 
 // ====== 全局配置 ======
 const APP_CONFIG = {
@@ -316,8 +315,20 @@ function renderAdminDashboard(main) {
         <div class="stat-card"><div class="stat-icon">📦</div><div class="stat-info"><div class="stat-num">${products.length}</div><div class="stat-label">商品总数</div></div></div>
         <div class="stat-card"><div class="stat-icon">✅</div><div class="stat-info"><div class="stat-num">${onlineCount}</div><div class="stat-label">在售商品</div></div></div>
       </div>
+      <div class="quick-actions" style="margin-top:24px">
+        <h3>数据管理</h3>
+        <div class="action-grid">
+          <button class="action-card" onclick="exportSeedData()">📤 导出商品数据</button>
+        </div>
+      </div>
     `;
   });
+}
+
+// ====== 导出种子数据 ======
+function exportSeedData() {
+  Store.exportData();
+  toast('已导出 seed.json，请放入项目根目录后重新部署 GitHub');
 }
 
 // ---- Admin Users 状态管理 ----
@@ -706,17 +717,13 @@ function updateUI() {
   const userName = document.getElementById('userName');
   const navAdmin = document.getElementById('navAdmin');
 
-  if (loginBtn) {
-    loginBtn.onclick = () => { if (Auth.isGuest && Auth.isGuest()) Auth.logout(); router.navigate('#/login'); };
-  }
-
   if (user) {
     if (userInfo) { userInfo.style.display = 'flex'; userName.textContent = user.username; }
-    if (loginBtn) loginBtn.style.display = (Auth.isGuest && Auth.isGuest()) ? 'inline' : 'none';
+    if (loginBtn) loginBtn.style.display = 'none';
     if (navAdmin) navAdmin.style.display = user.role === 'admin' ? 'inline' : 'none';
   } else {
     if (userInfo) userInfo.style.display = 'none';
-    if (loginBtn) { loginBtn.textContent = '登录'; loginBtn.style.display = 'inline'; }
+    if (loginBtn) { loginBtn.style.display = 'inline'; loginBtn.textContent = '登录'; }
     if (navAdmin) navAdmin.style.display = 'none';
   }
 }
@@ -724,7 +731,3 @@ function updateUI() {
 function escHtml(s) { return s ? String(s).replace(/[&<>"']/g, m => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#039;' })[m]) : ''; }
 function logout() { Auth.logout(); toast('已退出'); updateUI(); router.navigate('#/'); }
 
-// ====== Init ======
-if (document.readyState === 'loading') {
-  document.addEventListener('DOMContentLoaded', () => { updateUI(); router.init(); });
-} else { updateUI(); router.init(); }

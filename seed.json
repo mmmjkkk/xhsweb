@@ -1,0 +1,352 @@
+{
+  "products": [
+    {
+      "id": 4,
+      "name": "王者荣耀-全皮肤账号",
+      "description": "满级满皮肤账号，传说皮肤全收集，排位王者段位",
+      "price": 999,
+      "category": "游戏账号",
+      "stock": 1,
+      "status": 1,
+      "mainImage": "",
+      "images": [],
+      "createTime": "2026-06-05 18:10:56",
+      "updateTime": "2026-06-05 18:10:56"
+    },
+    {
+      "id": 5,
+      "name": "原神-满命满精账号",
+      "description": "全角色满命满精，所有五星武器精5",
+      "price": 3500,
+      "category": "游戏账号",
+      "stock": 1,
+      "status": 1,
+      "mainImage": "",
+      "images": [],
+      "createTime": "2026-06-05 18:10:56",
+      "updateTime": "2026-06-05 18:10:56"
+    },
+    {
+      "id": 6,
+      "name": "LOL-全英雄全皮肤",
+      "description": "英雄联盟全英雄全皮肤账号",
+      "price": 1500,
+      "category": "游戏账号",
+      "stock": 1,
+      "status": 1,
+      "mainImage": "",
+      "images": [],
+      "createTime": "2026-06-05 18:10:56",
+      "updateTime": "2026-06-05 18:10:56"
+    },
+    {
+      "id": 7,
+      "name": "崩坏星穹铁道-欧皇号",
+      "description": "全限定角色全光锥，遗器完美",
+      "price": 2800,
+      "category": "游戏账号",
+      "stock": 1,
+      "status": 1,
+      "mainImage": "",
+      "images": [],
+      "createTime": "2026-06-05 18:10:56",
+      "updateTime": "2026-06-05 18:10:56"
+    },
+    {
+      "id": 8,
+      "name": "和平精英-战神号",
+      "description": "无敌战神段位，全载具皮肤",
+      "price": 1200,
+      "category": "游戏账号",
+      "stock": 1,
+      "status": 1,
+      "mainImage": "",
+      "images": [],
+      "createTime": "2026-06-05 18:10:56",
+      "updateTime": "2026-06-05 18:10:56"
+    },
+    {
+      "id": 9,
+      "name": "CF穿越火线-VIP号",
+      "description": "VIP8等级，全英雄武器",
+      "price": 800,
+      "category": "游戏账号",
+      "stock": 1,
+      "status": 1,
+      "mainImage": "",
+      "images": [],
+      "createTime": "2026-06-05 18:10:56",
+      "updateTime": "2026-06-05 18:10:56"
+    },
+    {
+      "id": 10,
+      "name": "阴阳师-全图鉴号",
+      "description": "全SSR/SP式神，一速270+",
+      "price": 2200,
+      "category": "游戏账号",
+      "stock": 1,
+      "status": 1,
+      "mainImage": "",
+      "images": [],
+      "createTime": "2026-06-05 18:10:56",
+      "updateTime": "2026-06-05 18:10:56"
+    },
+    {
+      "id": 11,
+      "name": "梦幻西游-69成品号",
+      "description": "69级成品号，全红宝宝",
+      "price": 5000,
+      "category": "游戏账号",
+      "stock": 1,
+      "status": 1,
+      "mainImage": "",
+      "images": [],
+      "createTime": "2026-06-05 18:10:56",
+      "updateTime": "2026-06-05 18:10:56"
+    },
+    {
+      "id": 12,
+      "name": "DNF-史诗毕业号",
+      "description": "全职业史诗套装毕业，红字增幅+12",
+      "price": 1800,
+      "category": "游戏账号",
+      "stock": 1,
+      "status": 1,
+      "mainImage": "",
+      "images": [],
+      "createTime": "2026-06-05 18:10:56",
+      "updateTime": "2026-06-05 18:10:56"
+    },
+    {
+      "id": 13,
+      "name": "第五人格-六阶号",
+      "description": "六阶段位账号，全角色全皮肤",
+      "price": 600,
+      "category": "游戏账号",
+      "stock": 1,
+      "status": 1,
+      "mainImage": "",
+      "images": [],
+      "createTime": "2026-06-05 18:10:56",
+      "updateTime": "2026-06-05 18:10:56"
+    },
+    {
+      "id": 14,
+      "name": "明日方舟-全六星号",
+      "description": "全六星干员满潜，合约18轻松过",
+      "price": 1600,
+      "category": "游戏账号",
+      "stock": 1,
+      "status": 1,
+      "mainImage": "",
+      "images": [],
+      "createTime": "2026-06-05 18:10:56",
+      "updateTime": "2026-06-05 18:10:56"
+    },
+    {
+      "id": 15,
+      "name": "碧蓝航线-全船号",
+      "description": "全舰船收集，科研船满级",
+      "price": 900,
+      "category": "游戏账号",
+      "stock": 1,
+      "status": 1,
+      "mainImage": "",
+      "images": [],
+      "createTime": "2026-06-05 18:10:56",
+      "updateTime": "2026-06-05 18:10:56"
+    }
+  ],
+  "tags": [
+    {
+      "id": 1,
+      "name": "王者荣耀"
+    },
+    {
+      "id": 2,
+      "name": "全皮肤"
+    },
+    {
+      "id": 3,
+      "name": "原神"
+    },
+    {
+      "id": 4,
+      "name": "满命"
+    },
+    {
+      "id": 5,
+      "name": "LOL"
+    },
+    {
+      "id": 6,
+      "name": "崩坏星穹铁道"
+    },
+    {
+      "id": 7,
+      "name": "全角色"
+    },
+    {
+      "id": 8,
+      "name": "和平精英"
+    },
+    {
+      "id": 9,
+      "name": "战神"
+    },
+    {
+      "id": 10,
+      "name": "CF"
+    },
+    {
+      "id": 11,
+      "name": "VIP"
+    },
+    {
+      "id": 12,
+      "name": "阴阳师"
+    },
+    {
+      "id": 13,
+      "name": "全图鉴"
+    },
+    {
+      "id": 14,
+      "name": "梦幻西游"
+    },
+    {
+      "id": 15,
+      "name": "69级"
+    },
+    {
+      "id": 16,
+      "name": "DNF"
+    },
+    {
+      "id": 17,
+      "name": "毕业号"
+    },
+    {
+      "id": 18,
+      "name": "第五人格"
+    },
+    {
+      "id": 19,
+      "name": "六阶"
+    },
+    {
+      "id": 20,
+      "name": "明日方舟"
+    },
+    {
+      "id": 21,
+      "name": "全六星"
+    },
+    {
+      "id": 22,
+      "name": "碧蓝航线"
+    },
+    {
+      "id": 23,
+      "name": "全收集"
+    }
+  ],
+  "productTags": [
+    {
+      "productId": 4,
+      "tagId": 1
+    },
+    {
+      "productId": 4,
+      "tagId": 2
+    },
+    {
+      "productId": 5,
+      "tagId": 3
+    },
+    {
+      "productId": 5,
+      "tagId": 4
+    },
+    {
+      "productId": 6,
+      "tagId": 5
+    },
+    {
+      "productId": 6,
+      "tagId": 2
+    },
+    {
+      "productId": 7,
+      "tagId": 6
+    },
+    {
+      "productId": 7,
+      "tagId": 7
+    },
+    {
+      "productId": 8,
+      "tagId": 8
+    },
+    {
+      "productId": 8,
+      "tagId": 9
+    },
+    {
+      "productId": 9,
+      "tagId": 10
+    },
+    {
+      "productId": 9,
+      "tagId": 11
+    },
+    {
+      "productId": 10,
+      "tagId": 12
+    },
+    {
+      "productId": 10,
+      "tagId": 13
+    },
+    {
+      "productId": 11,
+      "tagId": 14
+    },
+    {
+      "productId": 11,
+      "tagId": 15
+    },
+    {
+      "productId": 12,
+      "tagId": 16
+    },
+    {
+      "productId": 12,
+      "tagId": 17
+    },
+    {
+      "productId": 13,
+      "tagId": 18
+    },
+    {
+      "productId": 13,
+      "tagId": 19
+    },
+    {
+      "productId": 14,
+      "tagId": 20
+    },
+    {
+      "productId": 14,
+      "tagId": 21
+    },
+    {
+      "productId": 15,
+      "tagId": 22
+    },
+    {
+      "productId": 15,
+      "tagId": 23
+    }
+  ]
+}

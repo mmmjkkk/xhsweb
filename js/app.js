@@ -156,11 +156,7 @@ function renderProductDetail(main, params) {
           </div>
           <div class="detail-desc">${escHtml(product.description || '暂无描述')}</div>
           <div class="detail-actions">
-            ${user ? `
-              <button class="btn btn-primary btn-block" id="buyBtn">购买账号请添加微信 ${APP_CONFIG.wechatId}</button>
-            ` : `
-              <a href="#/login" class="btn btn-primary btn-block" style="text-decoration:none">请添加微信购买😘</a>
-            `}
+            <button class="btn btn-primary btn-block" onclick="prompt('请添加微信购买账号:\n\n微信号: ${APP_CONFIG.wechatId}\n\n请备注「${APP_CONFIG.wechatRemark}」，不然不通过。\n\n复制下方微信号后点击确定', '${APP_CONFIG.wechatId}')">购买账号请添加微信 ${APP_CONFIG.wechatId}</button>
           </div>
         </div>
       </div>
@@ -173,11 +169,6 @@ function renderProductDetail(main, params) {
       </div>` : ''}
     </div>
   `;
-
-  const buyBtn = document.getElementById('buyBtn');
-  if (buyBtn) {
-    buyBtn.onclick = () => prompt(`请添加微信购买账号:\n\n微信号: ${APP_CONFIG.wechatId}\n\n请备注「${APP_CONFIG.wechatRemark}」，不然不通过。\n\n复制下方微信号后点击确定`, APP_CONFIG.wechatId);
-  }
 }
 
 // ====== 登录 & 注册 ======
@@ -199,7 +190,7 @@ function renderLogin(main) {
           <div class="form-error" id="loginError" style="display:none"></div>
           <button type="submit" class="btn btn-primary btn-block" style="margin-top:8px">登录</button>
         </form>
-        <div class="auth-link">还没有账号？<a href="#/register">立即注册</a></div>
+    
       </div>
     </div>
   `;

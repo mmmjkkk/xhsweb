@@ -430,3 +430,17 @@ tr:last-child td { border-bottom: none; }
   .admin-menu-item { white-space: nowrap; flex-shrink: 0; }
   .admin-main { padding: 24px 16px; }
 }
+
+/* ===== Loading 样式 ===== */
+.loading {
+  text-align: center;
+  padding: 100px 20px;
+  font-size: 16px;
+  color: var(--text2);
+  animation: pulse 2s infinite;
+}
+@keyframes pulse {
+  0% { opacity: 0.5; }
+  50% { opacity: 1; }
+  100% { opacity: 0.5; }
+}
